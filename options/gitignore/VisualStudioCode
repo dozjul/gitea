@@ -7,6 +7,9 @@
 
 # Local History for Visual Studio Code
 .history/
+# local history seems to also generate a .lh directory for local history
+# will ignore .lh folder in all subdirs
+*/.lh
 
 # Built Visual Studio Code Extensions
 *.vsix
